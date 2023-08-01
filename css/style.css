@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.5s;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 20px;
+    gap: 10px;
+    color: white;
+
+}
+
+.nav-link:hover {
+    background-color: rgb(255, 242, 225);
+    color: #000000;
+    border-radius: 7px;
+}
+
+.nav-logo {
+    object-fit: cover;
+    width: 85px;
+    height: 55px;
+    transition: 0.5s;
+}
+
+.nav-logo:hover {
+    width: 75px;
+}
+
+
+
+/* Main */
+
+main {
+    background-color: rgb(255, 242, 225);
+    overflow: hidden;
+
+}
+
+.dire-contacto {
+    text-decoration: none;
+    color: rgb(189, 0, 0);
+}
+
+.imagen-zapas {
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5px;
+
+}
+
+section p {
+    margin-left: 5px;
+}
+
+article {
+    margin: 15px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+
+}
+
+label {
+    display: flex;
+    color: #ffffff;
+    justify-content: left;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #b52828;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="reset"]:hover {
+    background-color: #a41919;
+}
+
+.carrousel {
+    padding: 20px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
