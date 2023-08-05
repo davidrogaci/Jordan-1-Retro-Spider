@@ -91,6 +91,7 @@ article {
     margin: 15px;
 }
 
+/* Inicio CSS del Form */
 form {
     width: 400px;
     margin: 0 auto;
@@ -144,6 +145,7 @@ input[type="reset"] {
 input[type="reset"]:hover {
     background-color: #a41919;
 }
+/* Fin CSS del Form */
 
 .carrousel {
     padding: 20px;
