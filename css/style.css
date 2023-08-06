@@ -29,10 +29,21 @@ nav a {
 nav ul {
     list-style-type: none;
     display: flex;
+    padding: 0;
     font-size: 20px;
     gap: 10px;
     color: white;
+}
 
+.nav-container {
+    margin: 8px;
+    padding: 0;
+}
+
+.nav-link {
+    padding: 3px;
+    border: 2px rgb(255, 242, 225) solid;
+    border-radius: 7px;
 }
 
 .nav-link:hover {
