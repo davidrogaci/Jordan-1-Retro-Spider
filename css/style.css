@@ -145,6 +145,7 @@ input[type="reset"] {
 input[type="reset"]:hover {
     background-color: #a41919;
 }
+
 /* Fin CSS del Form */
 
 .carrousel {
@@ -160,6 +161,10 @@ footer {
     color: white;
     padding: 15px;
     text-align: center;
+}
+
+footer section p {
+    opacity: 75%;
 }
 
 footer div {
