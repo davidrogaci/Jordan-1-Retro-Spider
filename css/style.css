@@ -8,11 +8,6 @@
 
 /* Nav */
 
-header {
-    background-color: black;
-    padding: 15px;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -32,7 +27,7 @@ nav ul {
     padding: 0;
     font-size: 20px;
     gap: 10px;
-    color: white;
+    color: rgb(255, 242, 225);
 }
 
 .nav-container {
@@ -41,9 +36,11 @@ nav ul {
 }
 
 .nav-link {
+    color: rgb(255, 242, 225);
     padding: 3px;
     border: 2px rgb(255, 242, 225) solid;
     border-radius: 7px;
+    text-align: center;
 }
 
 .nav-link:hover {
@@ -63,7 +60,20 @@ nav ul {
     width: 75px;
 }
 
+.offcanvas-header {
+    background-color: rgb(255, 242, 225);
+}
 
+.navbar-toggler-icon {
+    background-color: rgb(255, 242, 225);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: rgb(218, 207, 192);
+    border-radius: 3px;
+}
 
 /* Main */
 
