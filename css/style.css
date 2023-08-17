@@ -90,8 +90,8 @@ main {
 
 .imagen-zapas {
     object-fit: cover;
-    width: 600px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -112,6 +112,23 @@ article {
     margin: 15px;
 }
 
+.contenedor-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+iframe {
+    max-width: 100%;
+    height: 400px;
+    padding: 5px;
+}
 /* Inicio CSS del Form */
 form {
     width: 400px;
@@ -192,3 +209,18 @@ footer div {
     display: inline;
     padding: 2px;
 }
+
+/* Inicio Media query para dispositivos móviles con un ancho máximo de 768px */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+/* Fin Media query para dispositivos móviles con un ancho máximo de 768px */
