@@ -1,10 +1,14 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
+}
+
+img {
+  height: 939px;
+  width: 695px;
 }
 
 footer {
@@ -150,13 +154,11 @@ form {
   margin-bottom: 20px;
   border-radius: 5px;
 }
-
 form label {
   display: flex;
   color: #ffffff;
   justify-content: left;
 }
-
 form input[type=text],
 form input[type=email],
 form textarea {
@@ -165,7 +167,6 @@ form textarea {
   border: 1px solid #cccccc;
   border-radius: 4px;
 }
-
 form input[type=submit] {
   width: 100%;
   padding: 10px;
@@ -175,11 +176,9 @@ form input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
 form input[type=submit]:hover {
   background-color: #45a049;
 }
-
 form input[type=reset] {
   width: 100%;
   padding: 10px;
@@ -189,7 +188,6 @@ form input[type=reset] {
   border-radius: 4px;
   cursor: pointer;
 }
-
 form input[type=reset]:hover {
   background-color: #a41919;
 }
@@ -205,13 +203,11 @@ form input[type=reset]:hover {
     width: 100%;
   }
 }
-
 @media (max-width: 768px) {
   iframe {
     width: 100%;
   }
 }
-
 /* Fin Media query para dispositivos móviles con un ancho máximo de 768px */
 
 /*# sourceMappingURL=style.css.map */
