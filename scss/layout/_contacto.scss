@@ -1,0 +1,54 @@
+// Inicio del CSS del Form
+form {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: flex;
+    color: #ffffff;
+    justify-content: left;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=reset] {
+    width: 100%;
+    padding: 10px;
+    background-color: #b52828;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #a41919;
+}
+
+/* Fin CSS del Form */

@@ -1,0 +1,14 @@
+/* Inicio Media query para dispositivos móviles con un ancho máximo de 768px */
+@media (max-width: 768px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 100%;
+    }
+}
+
+/* Fin Media query para dispositivos móviles con un ancho máximo de 768px */

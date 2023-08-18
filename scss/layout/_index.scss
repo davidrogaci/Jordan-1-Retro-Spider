@@ -1,0 +1,50 @@
+main {
+    background-color: rgb(255, 242, 225);
+    overflow: hidden;
+}
+
+.dire-contacto {
+    text-decoration: none;
+    color: rgb(189, 0, 0);
+}
+
+.imagen-zapas {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+section p {
+    margin-left: 5px;
+}
+
+article {
+    margin: 15px;
+}
+
+.contenedor-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+iframe {
+    max-width: 100%;
+    height: 400px;
+    padding: 5px;
+}

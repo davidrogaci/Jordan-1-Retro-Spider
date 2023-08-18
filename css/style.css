@@ -1,12 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
-/* Nav */
+footer {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+footer section p {
+    opacity: 75%;
+}
+
+footer div {
+    display: inline;
+    padding: 2px;
+}
 
 nav {
     display: flex;
@@ -75,12 +91,9 @@ nav ul {
     border-radius: 3px;
 }
 
-/* Main */
-
 main {
     background-color: rgb(255, 242, 225);
     overflow: hidden;
-
 }
 
 .dire-contacto {
@@ -101,7 +114,6 @@ h1 {
 
 h2 {
     margin-left: 10px;
-
 }
 
 section p {
@@ -129,7 +141,7 @@ iframe {
     height: 400px;
     padding: 5px;
 }
-/* Inicio CSS del Form */
+
 form {
     width: 400px;
     margin: 0 auto;
@@ -137,18 +149,16 @@ form {
     padding: 20px 20px 20px 20px;
     margin-bottom: 20px;
     border-radius: 5px;
-
 }
 
 label {
     display: flex;
     color: #ffffff;
     justify-content: left;
-
 }
 
-input[type="text"],
-input[type="email"],
+input[type=text],
+input[type=email],
 textarea {
     width: 100%;
     padding: 8px;
@@ -156,7 +166,7 @@ textarea {
     border-radius: 4px;
 }
 
-input[type="submit"] {
+input[type=submit] {
     width: 100%;
     padding: 10px;
     background-color: #4CAF50;
@@ -166,11 +176,11 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
     background-color: #45a049;
 }
 
-input[type="reset"] {
+input[type=reset] {
     width: 100%;
     padding: 10px;
     background-color: #b52828;
@@ -180,34 +190,13 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-input[type="reset"]:hover {
+input[type=reset]:hover {
     background-color: #a41919;
 }
 
 /* Fin CSS del Form */
-
 .carrousel {
     padding: 20px;
-}
-
-
-/* Footer */
-
-footer {
-    background-color: black;
-    font-size: 20px;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-footer section p {
-    opacity: 75%;
-}
-
-footer div {
-    display: inline;
-    padding: 2px;
 }
 
 /* Inicio Media query para dispositivos móviles con un ancho máximo de 768px */
@@ -224,3 +213,5 @@ footer div {
 }
 
 /* Fin Media query para dispositivos móviles con un ancho máximo de 768px */
+
+/*# sourceMappingURL=style.css.map */
