@@ -2,214 +2,214 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 footer {
-    background-color: black;
-    font-size: 20px;
-    color: white;
-    padding: 15px;
-    text-align: center;
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
 
 footer section p {
-    opacity: 75%;
+  opacity: 75%;
 }
 
 footer div {
-    display: inline;
-    padding: 2px;
+  display: inline;
+  padding: 2px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 nav a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    transition: 0.5s;
-    justify-content: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.5s;
+  justify-content: center;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    padding: 0;
-    font-size: 20px;
-    gap: 10px;
-    color: rgb(255, 242, 225);
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  font-size: 20px;
+  gap: 10px;
+  color: rgb(255, 242, 225);
 }
 
 .nav-container {
-    margin: 8px;
-    padding: 0;
+  margin: 8px;
+  padding: 0;
 }
 
 .nav-link {
-    color: rgb(255, 242, 225);
-    padding: 3px;
-    border: 2px rgb(255, 242, 225) solid;
-    border-radius: 7px;
-    text-align: center;
+  color: rgb(255, 242, 225);
+  padding: 3px;
+  border: 2px rgb(255, 242, 225) solid;
+  border-radius: 7px;
+  text-align: center;
 }
 
 .nav-link:hover {
-    background-color: rgb(255, 242, 225);
-    color: #000000;
-    border-radius: 7px;
+  background-color: rgb(255, 242, 225);
+  color: #000000;
+  border-radius: 7px;
 }
 
 .nav-logo {
-    object-fit: cover;
-    width: 85px;
-    height: 55px;
-    transition: 0.5s;
+  object-fit: cover;
+  width: 85px;
+  height: 55px;
+  transition: 0.5s;
 }
 
 .nav-logo:hover {
-    width: 75px;
+  width: 75px;
 }
 
 .offcanvas-header {
-    background-color: rgb(255, 242, 225);
+  background-color: rgb(255, 242, 225);
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(255, 242, 225);
-    border-radius: 3px;
-    transition: 0.5s;
+  background-color: rgb(255, 242, 225);
+  border-radius: 3px;
+  transition: 0.5s;
 }
 
 .navbar-toggler-icon:hover {
-    background-color: rgb(218, 207, 192);
-    border-radius: 3px;
+  background-color: rgb(218, 207, 192);
+  border-radius: 3px;
 }
 
 main {
-    background-color: rgb(255, 242, 225);
-    overflow: hidden;
+  background-color: rgb(255, 242, 225);
+  overflow: hidden;
 }
 
 .dire-contacto {
-    text-decoration: none;
-    color: rgb(189, 0, 0);
+  text-decoration: none;
+  color: rgb(189, 0, 0);
 }
 
 .imagen-zapas {
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
-    padding-top: 10px;
-    text-align: center;
+  padding-top: 10px;
+  text-align: center;
 }
 
 h2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 section p {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 article {
-    margin: 15px;
+  margin: 15px;
 }
 
 .contenedor-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    padding: 5px;
+  max-width: 100%;
+  height: auto;
+  padding: 5px;
 }
 
 iframe {
-    max-width: 100%;
-    height: 400px;
-    padding: 5px;
+  max-width: 100%;
+  height: 400px;
+  padding: 5px;
 }
 
 form {
-    width: 400px;
-    margin: 0 auto;
-    background-color: #000000;
-    padding: 20px 20px 20px 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
 
-label {
-    display: flex;
-    color: #ffffff;
-    justify-content: left;
+form label {
+  display: flex;
+  color: #ffffff;
+  justify-content: left;
 }
 
-input[type=text],
-input[type=email],
-textarea {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
+form input[type=text],
+form input[type=email],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
 }
 
-input[type=submit] {
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+form input[type=submit] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+form input[type=submit]:hover {
+  background-color: #45a049;
 }
 
-input[type=reset] {
-    width: 100%;
-    padding: 10px;
-    background-color: #b52828;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+form input[type=reset] {
+  width: 100%;
+  padding: 10px;
+  background-color: #b52828;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=reset]:hover {
-    background-color: #a41919;
+form input[type=reset]:hover {
+  background-color: #a41919;
 }
 
 /* Fin CSS del Form */
 .carrousel {
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Inicio Media query para dispositivos móviles con un ancho máximo de 768px */
 @media (max-width: 768px) {
-    img {
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
-    iframe {
-        width: 100%;
-    }
+  iframe {
+    width: 100%;
+  }
 }
 
 /* Fin Media query para dispositivos móviles con un ancho máximo de 768px */
