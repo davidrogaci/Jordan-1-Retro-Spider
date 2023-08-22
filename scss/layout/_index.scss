@@ -1,8 +1,3 @@
-main {
-    background-color: rgb(255, 242, 225);
-    overflow: hidden;
-}
-
 .dire-contacto {
     text-decoration: none;
     color: rgb(189, 0, 0);
@@ -32,9 +27,7 @@ article {
 }
 
 .contenedor-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex(column, center)
 }
 
 img {

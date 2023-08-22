@@ -1,4 +1,4 @@
-// Fin CSS Navbar
+/* Fin CSS Navbar */
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,18 +52,18 @@ nav ul {
 }
 
 .offcanvas-header {
-    background-color: rgb(255, 242, 225);
+    background-color: $main-color;
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(255, 242, 225);
+    background-color: $main-color;
     border-radius: 3px;
     transition: 0.5s;
 }
 
 .navbar-toggler-icon:hover {
-    background-color: rgb(218, 207, 192);
+    background-color: $main-color;
     border-radius: 3px;
 }
 
-// Fin CSS Navbar
+/* Fin CSS Navbar */

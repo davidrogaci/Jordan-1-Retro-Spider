@@ -7,7 +7,12 @@
     font-family: "Roboto", sans-serif;
 }
 
-img{
+main {
+    background-color: $main-color;
+    overflow: hidden;
+}
+
+img {
     height: 939px;
     width: 695px;
 }

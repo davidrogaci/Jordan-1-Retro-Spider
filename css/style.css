@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* color: */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 * {
   margin: 0;
@@ -6,28 +7,17 @@
   font-family: "Roboto", sans-serif;
 }
 
+main {
+  background-color: rgb(255, 242, 225);
+  overflow: hidden;
+}
+
 img {
   height: 939px;
   width: 695px;
 }
 
-footer {
-  background-color: black;
-  font-size: 20px;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
-
-footer section p {
-  opacity: 75%;
-}
-
-footer div {
-  display: inline;
-  padding: 2px;
-}
-
+/* Fin CSS Navbar */
 nav {
   display: flex;
   justify-content: space-between;
@@ -91,15 +81,30 @@ nav ul {
 }
 
 .navbar-toggler-icon:hover {
-  background-color: rgb(218, 207, 192);
+  background-color: rgb(255, 242, 225);
   border-radius: 3px;
 }
 
-main {
-  background-color: rgb(255, 242, 225);
-  overflow: hidden;
+/* Fin CSS Navbar */
+/* Fin CSS Footer */
+footer {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  text-align: center;
 }
 
+footer section p {
+  opacity: 75%;
+}
+
+footer div {
+  display: inline;
+  padding: 2px;
+}
+
+/* Fin CSS Footer */
 .dire-contacto {
   text-decoration: none;
   color: rgb(189, 0, 0);
@@ -146,6 +151,7 @@ iframe {
   padding: 5px;
 }
 
+/* Inicio del CSS del Form */
 form {
   width: 400px;
   margin: 0 auto;
@@ -193,6 +199,7 @@ form input[type=reset]:hover {
 }
 
 /* Fin CSS del Form */
+/*  Carrousel */
 .carrousel {
   padding: 20px;
 }

@@ -1,10 +1,13 @@
 // Base
-@import 'base/reset';
 @import 'base/vars';
+@import 'base/reset';
+@import 'base/utilities';
+
 
 // Componentes
-@import 'components/footer';
 @import 'components/navbar';
+@import 'components/footer';
+
 
 // Layout
 @import 'layout/index';
